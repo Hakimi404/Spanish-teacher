@@ -1,6 +1,6 @@
 # Camino 🌞 Learn Spanish from zero to B1 in 6 months
 
-**Live app:** https://hakimi404.github.io/Spanish-teacher/
+**Live app:** https://spanish-teacher.vercel.app/
 
 Camino is a free, installable web app (PWA) for learning **Castilian Spanish (Spain)**, starting from nothing and reaching **B1**. It follows a 26-week day-by-day plan. Explanations are in English, with extra tips for **German 🇩🇪** and **Arabic 🇸🇦** speakers.
 
