@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Camino · Learn Spanish</title>
+    <meta name="description" content="Learn Spanish (Spain) from zero to B1 in 6 months. Tap any word to hear it, review with spaced repetition and keep your daily streak." />
+    <meta name="theme-color" content="#FFF8EC" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#15130F" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" href="/Spanish-teacher/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/Spanish-teacher/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/Spanish-teacher/apple-touch-icon-180x180.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Camino" />
+    <script>
+      try {
+        var s = JSON.parse(localStorage.getItem('camino-v1') || 'null')
+        var t = s && s.state && s.state.settings && s.state.settings.theme
+        if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t)
+      } catch (e) {}
+    </script>
+    <style>html,body{background:#fff8ec;margin:0}@media (prefers-color-scheme:dark){html:not([data-theme=light]),html:not([data-theme=light]) body{background:#15130f}}html[data-theme=dark],html[data-theme=dark] body{background:#15130f}.splash{place-items:center;font-family:ui-rounded,system-ui,sans-serif;display:grid;position:fixed;inset:0}.splash-inner{color:#b07a00;letter-spacing:.02em;flex-direction:column;align-items:center;gap:12px;font-size:22px;font-weight:800;display:flex}.splash svg{width:84px;height:84px;animation:6s linear infinite splash-spin}@keyframes splash-spin{to{transform:rotate(360deg)}}</style>
+    <script type="module" crossorigin src="/Spanish-teacher/assets/index-jDD5UfpN.js"></script>
+    <link rel="stylesheet" crossorigin href="/Spanish-teacher/assets/index-CsHI6Niw.css">
+  <link rel="manifest" href="/Spanish-teacher/manifest.webmanifest"></head>
+  <body>
+    <div id="root">
+      <div class="splash">
+        <div class="splash-inner">
+          <svg viewBox="0 0 120 120" aria-hidden="true">
+            <g fill="#F2A900">
+              <circle cx="60" cy="8" r="7" /><circle cx="60" cy="112" r="7" /><circle cx="8" cy="60" r="7" /><circle cx="112" cy="60" r="7" />
+              <circle cx="23" cy="23" r="7" /><circle cx="97" cy="97" r="7" /><circle cx="97" cy="23" r="7" /><circle cx="23" cy="97" r="7" />
+            </g>
+            <circle cx="60" cy="60" r="38" fill="#FFC21A" stroke="#E3A600" stroke-width="4" />
+          </svg>
+          <span>Camino</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
