@@ -3,9 +3,10 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
-// Served from https://hakimi404.github.io/Spanish-teacher/ (GitHub Pages project site).
+// GitHub Pages serves the app from https://hakimi404.github.io/Spanish-teacher/;
+// Vercel (which sets VERCEL=1 during its builds) serves it from the domain root.
 export default defineConfig({
-  base: '/Spanish-teacher/',
+  base: process.env.VERCEL ? '/' : '/Spanish-teacher/',
   plugins: [
     react(),
     tailwindcss(),

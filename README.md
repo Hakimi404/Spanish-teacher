@@ -94,6 +94,8 @@ npm run build      # production build in dist/
 
 Every push to `main` is tested, built and published to the `gh-pages` branch by [.github/workflows/deploy.yml](.github/workflows/deploy.yml).
 
+**Vercel** works too: import the repo at [vercel.com/new](https://vercel.com/new) and keep the detected Vite settings. The build detects Vercel and serves the app from the site root instead of `/Spanish-teacher/`.
+
 ## How the code is organised
 
 ```

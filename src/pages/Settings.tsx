@@ -36,7 +36,8 @@ function Switch({ checked, onChange, label }: { checked: boolean; onChange: (v: 
   return <button type="button" role="switch" aria-checked={checked} aria-label={label} className="switch" onClick={() => onChange(!checked)} />
 }
 
-const APP_URL = 'https://hakimi404.github.io/Spanish-teacher/'
+// wherever the app is hosted (GitHub Pages, Vercel, localhost)
+const APP_URL = new URL(import.meta.env.BASE_URL, window.location.origin).href
 
 export default function Settings() {
   const settings = useStore((s) => s.settings)
